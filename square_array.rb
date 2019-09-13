@@ -1,10 +1,7 @@
 def square_array(array)
   counter = 0
 
-def square_array(array)
-  counter = 0
-
-  while counter < array.length do
+  #while counter < array.length do
     number = array[counter]
     array[counter] = number*number
     
