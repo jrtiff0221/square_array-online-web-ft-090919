@@ -1,4 +1,7 @@
 def square_array(array)
-  array.map {|x| x*x }
+  arr = []
+  array.each {|x| arr << x*x }
+  
+  return arr
 end
 
